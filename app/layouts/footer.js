@@ -65,7 +65,7 @@ const Footer = () => {
 
           </div>
           {/* links */}
-          <div className="links">
+          <div className="mt-5 md:mt-0">
               <h2 className="text-xl mb-6 font-bold">Useful Links</h2>
               <ul className="space-y-5">
               <FooterLink href='/about' title='About Us'/>
@@ -78,7 +78,7 @@ const Footer = () => {
           </div>
           
            {/* help center */}
-           <div className="links">
+           <div className="mt-5 md:mt-0">
               <h2 className="text-xl mb-6 font-bold">Help Center</h2>
               <ul className="space-y-5">
               <FooterLink href='/payment' title='Payments'/>
@@ -91,7 +91,7 @@ const Footer = () => {
           </div>
 
             {/* farmart business */}
-          <div className="links">
+          <div className=" mt-5 md:mt-0">
               <h2 className="text-xl mb-6 font-bold">Farmart Busines</h2>
               <ul className="space-y-5">
               <FooterLink href='/payment' title='Sell On Farmart'/>
@@ -103,7 +103,7 @@ const Footer = () => {
           </div>
 
           {/* newsletter */}
-          <div className="lg:max-w-sm">
+          <div className="lg:max-w-sm mt-5 md:mt-0">
             <h2 className="text-lg font-bold mb-6">Farmart Newsletter</h2>
             <p className="text-lg mb-4">Register now to get updates on promotions and coupns. Don’t worry! We not spam</p>
            <div className="flex items-center mt-5">
